@@ -1,0 +1,13 @@
+name: SmartVillager
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  smartvillager:
+    description: Gives a reusable Smart Villager spawn egg or spawns one directly.
+    usage: /smartvillager [egg|spawn]
+    permission: smartvillager.use
+permissions:
+  smartvillager.use:
+    description: Allows use of the Smart Villager command.
+    default: op
